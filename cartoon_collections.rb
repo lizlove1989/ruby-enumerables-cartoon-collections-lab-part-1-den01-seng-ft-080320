@@ -6,10 +6,9 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  index = 0
-  array.each_with_index {|item|
-  p "#{index + 1}. #{array[index]}"
-  index += 1
+  array.each_with_index { |item, index|
+  p "#{index + 1}:#{item}" }
+
   
   
   # Use `each_with_index` to enumerate over the provided array
