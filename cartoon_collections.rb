@@ -7,7 +7,7 @@ end
 
 def list_dwarves(array)
   index = 0
-  array.each_with_index {|item|}
+  array.each_with_index {|item|
   p "#{index + 1}. #{array[index]}"
   index += 1
   
